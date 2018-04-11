@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 #insall dependencies
+apt-get install -y python3-setuptools
 apt-get install -y mysql-server
 apt-get install -y mysql-client
 apt-get install -y libmysqlclient15-dev
